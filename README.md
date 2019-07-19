@@ -14,7 +14,7 @@ Steps:
 5. After build command, run command:<br />
 <i>docker-compose up -d</i>
 
-6. In Terminal window: type: <br /><i>docker exec -it stacks_webapp_1 /bin/bash</i>
+6. In Terminal window and type: <br /><i>docker exec -it stacks_webapp_1 /bin/bash</i>
 7. Type: <br /><i>composer install</i>
 8. Type: <br /><i>php artisan config:cache</i>
 9: Open web browser, type <i>http://localhost:82</i>
